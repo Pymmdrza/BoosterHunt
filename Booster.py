@@ -55,10 +55,11 @@ def seek(r, df_handler):
         ntimx = datetime.datetime.now()
 
         if int(i % LOG_EVERY_N) == 0:
-            console.print('[gold1]~ Mmdrza.Com:[/][red1][[/][white on dark_blue]' + str(
-                ntimx.strftime('%H:%M:%S')) + '[/][red1]][/]' + ' [b white]Total Key Genrated [/][red1]' + str(
-                i) + '[/][grey87] With Core :[/][cyan]' + str(
+            console.print('[gold1]~ Mmdrza.Com:[/][red1][[/][gold1 on grey7]' + str(
+                ntimx.strftime('%H:%M:%S')) + '[/][red1]][/]' + ' [b green]Total Key Genrated [/][cyan]' + str(
+                i) + '[/][green] With Core :[/][cyan]' + str(
                 r) + '[/][green] K/s = [/][white on grey7]' + str(i / time_diff)[0:12])
+
 
         pub = pub + '\n'
         filename = 'btc.txt'
