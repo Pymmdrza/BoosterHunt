@@ -1,0 +1,12 @@
+base58==2.1.1
+bip32utils==0.3.post4
+bit==0.8.0
+bitcoin==1.1.42
+bitcoinaddress==0.1.5
+bitcoinlib==0.6.4
+ecdsa==0.17.0
+numpy==1.23.0
+pandas==1.4.3
+pysha3==1.0.2
+requests==2.28.0
+rich==12.4.4
