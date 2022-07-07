@@ -14,6 +14,7 @@ Booster Hunting a Powerfull script For Hunting Private Key With CPU Saver MOD
 first install package's: -> `pip install -r req.txt` or `pip3 install -r req.txt`
 ```
 pip install rich
+pip install pandas
 pip install ecdsa
 pip install base58
 ```
